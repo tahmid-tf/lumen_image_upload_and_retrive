@@ -1,0 +1,22 @@
+Tested on lumen 7.0
+
+Step 0 : Must cors setup kora thakte hobe, CORS ase lumen docs e
+
+Step 1 : composer require league/flysystem ^1.0
+Step 2 : composer require irazasyed/larasupport
+
+Step 1 & step 2 use hoy public directory ke use korar jonno
+
+Step 3 : for windows install HardLinkShell,
+https://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_X64.exe
+make a symlink between storage and public directory
+
+
+------------------------------------------------------------------------------
+
+Code explaination: 
+
+1. routes shob web.php e ase
+2. UserController e getPhoto & setPhoto method follow korlei hobe
+3. Post model e mutator ase ota ke follow korte hobe
+
